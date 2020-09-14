@@ -1,0 +1,16 @@
+1. Which of the following two Haskell functions is tail recursive?
+  a. foldr
+  b. foldl [answer]
+  c. -none-
+  d. -both-
+  
+2. Evaluate map (:"") "Hi!"
+  a. ['H', 'i', '!']
+  b. ["H", "i", "!"] [answer]
+  c. "H i !"
+
+3. What's the type of the concatenation operator ++?
+  a. (++) :: [a] -> [b] -> [c]
+  b. (++) :: ([a], [b]) -> [c]
+  c. (++) :: [a] -> [a] -> [a] [answer]
+  d. (++) :: ([a], [a]) -> [a]
