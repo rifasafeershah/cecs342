@@ -74,4 +74,4 @@ fib1 n = fib1 (n-2) + fib1 (n-1)
 fib2 n = fib_acc n 0 1
   where
     fib_acc 0 a _ = a
-    fib_acc
+    fib_acc n a b = fib_acc (n-1) b (a+b)
